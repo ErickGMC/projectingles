@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Fondo Completo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('imagen-final.png') no-repeat center center fixed;
+            background-size: contain; /* Ajusta la imagen completa al contenedor */
+            background-color: #000; /* Fondo negro para áreas vacías */
+            font-family: Arial, sans-serif;
+            height: 100vh; /* Asegura que ocupe toda la altura del viewport */
+        }
+
+        .flecha {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-size: 2rem;
+            color: white;
+            text-decoration: none;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 10px 15px;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .flecha:hover {
+            background: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <a href="chat.html" class="flecha">&#8592;</a>
+</body>
+</html>
