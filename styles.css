@@ -176,3 +176,28 @@ h1 {
 .flecha.derecha {
     right: 20px; /* Coloca la flecha a la derecha */
 }
+
+/* Adding responsiveness */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .flag, .character, .center-image {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .text {
+        font-size: 2em;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
