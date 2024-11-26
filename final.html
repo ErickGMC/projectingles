@@ -35,5 +35,19 @@
 </head>
 <body>
     <a href="chat.html" class="flecha">&#8592;</a>
+
+    <script>
+        // Escuchar los eventos de teclado
+        document.addEventListener("keydown", (event) => {
+            if (event.key === "ArrowRight") {
+                // Navega al archivo final.html cuando se presiona la flecha derecha
+                window.location.href = "final.html";
+            } else if (event.key === "ArrowLeft") {
+                // Navega al archivo chat.html cuando se presiona la flecha izquierda
+                window.location.href = "chat.html";
+            }
+        });
+    </script>
 </body>
 </html>
+
